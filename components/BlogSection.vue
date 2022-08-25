@@ -17,13 +17,13 @@
             <div class="content">
                 <div class="category-inner">
                     <img src="/images/shape/line-s1.png" alt="image">
-                    <n-link to="/item" class="category">{{ item.category }}</n-link>
+                    <n-link to="/" class="category">{{ item.category }}</n-link>
                 </div>
                 <h4 class="title">
-                    <n-link to="/item-details">{{ item.title }}</n-link>
+                    <n-link to="/">{{ item.title }}</n-link>
                 </h4>
                 <p>{{ item.excerpt }}</p>
-                <n-link to="/blog-details" class="btn btn-theme btn-border btn-gray">
+                <n-link to="/" class="btn btn-theme btn-border btn-gray">
                     Baca lebih lanjut <i class="icon icofont-long-arrow-right"></i>
                 </n-link>
             </div>
