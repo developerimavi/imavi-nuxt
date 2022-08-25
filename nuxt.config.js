@@ -73,6 +73,9 @@ const setting = {
         extractCSS: true,
         extend (config, ctx) {
         },
+        babel: {
+            compact: true,
+           },
     },
     target : 'static',
 
